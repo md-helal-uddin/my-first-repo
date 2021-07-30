@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pseodo class start</title>
+    <style>
+        h1{
+            color:blue;
+        }
+        /* h1:hover{
+            color: coral;
+            background-color: cornsilk; */
+        
+        a:hover{
+            background-color: green;
+            text-decoration: none;
+            color: white;
+        }
+        a:visited{
+            background-color: yellow;
+            color: black;
+            text-decoration: none;
+        }
+        a:link{
+            background-color: coral;
+            color: black;
+            text-decoration: none;
+        }
+        li:first-child{
+            color: chocolate;
+        }
+        li:last-child{
+            color: cornflowerblue;
+        }
+        li:nth-child(2n){
+            color: darkkhaki;
+
+        }
+        li:nth-child(2n+1){
+            background-color: darkseagreen;
+
+        }
+        h1::before{
+            content: 'Hello size';
+        }
+        h1::after{
+            content: 'gelo';
+        }
+    </style>
+</head>
+<body>
+    <h1>This is a normal</h1>
+    <a href="https://www.prothom-alo.com" target="_blank">Newsportal</a>
+    <br>
+    <h1>midle size header -1</h1>
+    <h1>midle size header -2</h1>
+    <h1>midle size header -3</h1>
+    <h1>midle size header -4</h1>
+    <h1>midle size header -5</h1>
+    <h1>midle size header -6</h1>
+    <ul>
+        <li>Helal</li>
+        <li>Belal</li>
+        <li>helal </li>
+        <li>dfjdkf </li>
+        <li>Helal</li>
+        <li>Helal</li>
+        <li>Helal</li>
+        <li>Belal</li>
+        <li>helal </li>
+        <li>dfjdkf </li>
+        <li>Helal</li>
+        <li>Helal</li>
+    </ul>
+</body>
+</html>

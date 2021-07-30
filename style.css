@@ -1,5 +1,5 @@
 /*Bonus Module 5.5 start */
-h1{
+/* h1{
     background-color: indianred;
     display: inline;
 }
@@ -8,10 +8,14 @@ span{
     margin-left: 30px;
     margin-right: 40px;
     margin-top: 30px; margin-bottom: 58px;/*  Not work */
-}
+/* }
 div{
-    background-color: rgb(90, 67, 107);
+    background-color: rgb(130, 49, 189);
     width: 50%;
     height: 200px;
-}
+} */ 
 /*Bonus Module 5.5 start */
+/* pseo-do class started */
+.pseo{
+    color:indianred;
+}
